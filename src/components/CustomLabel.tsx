@@ -27,7 +27,7 @@ export interface Props {
   backgroundColor?: string
 }
 
-const CustomLabel = ({
+export const CustomLabel = ({
   label = 'No label',
   size = 'normal',
   allCaps = false,
